@@ -17,7 +17,7 @@
             <h3>Carrer Objective:</h3>
             <p>To be part of an organization where an individual is recognized by his work. I look forward to work in an environment where teamwork and sincerity is valued most and to do something
             valuable for society too. </p>
-            <h3>Academic Qualifications:</h3>
+            <h3><button id="hide">Academic Qualifications:</button></h3>
              <table id="qualification">
              	<thead>
              		<tr>
@@ -109,6 +109,24 @@
 	    $('#qualification').append("<tr><td>B.E(Computer Science and Engineering)</td><td>Visvesvaraya Technological University (VTU), Belgaum.</td><td>N.M.A.M. Institute of Technology, Nitte</td><td>2016</td><td>8.75</td></tr>");
         $('#qualification').append("<tr><td>Grade 12</td><td>HSEB, Nepal</td><td>Trinity Int'l College</td><td>2012</td><td>79.10%</td></tr>");
         $('#qualification').append("<tr><td>Grade 10</td><td>Ministry of Education, Government of Nepal</td><td>kamala Academic School</td><td>2010</td><td>84%</td></tr");
+
+
+
+        $(document).ready(function(){
+    $("#hide").click(function(){
+        $("table").toggle();
+    });
+    // $(".show").click(function(){
+        // $("table").show();
+     // });
+});
+
+
+
+
 	</script>
+
+
+
     </body>
 </html>
