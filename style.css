@@ -1,0 +1,27 @@
+ body {
+ background-color: 	#000000;
+background-color: #eeeeee;
+}
+table, td, th {
+    border: 1px solid black;
+}
+ h3{
+ 	text-decoration: underline;
+ 	background-color:#C0C0C0;
+ }
+th{
+	font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+#name {
+	font-size: 300%;
+}
